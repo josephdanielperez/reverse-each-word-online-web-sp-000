@@ -3,5 +3,5 @@ reverse = []
   string.split.each do |word|
     reverse << word.reverse
   end
-  reverse.join
+  reverse.join(" ")
 end
